@@ -12,7 +12,7 @@ class Anagram
     anagram_letters = @anagram.split(//)
     if letters.sort == anagram_letters.sort
       matchedword = letter.join()
-      matched << matchedword
+      match << matchedword
     end
   end
   matched
