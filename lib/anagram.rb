@@ -9,7 +9,6 @@ class Anagram
     new_array = [] 
     words.each do |word|
     
-    #words.sort {|a, b| a <=> b}
     new_array << words[0].sort
    end
    new_array
