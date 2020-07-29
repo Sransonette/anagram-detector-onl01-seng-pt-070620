@@ -7,7 +7,7 @@ class Anagram
   
   def match(string)
     new_array = [] 
-    string.sort {|a, b| a <=> b}
+    string.sort {|a, b| a <=> b}.uniq
     
   end
   
