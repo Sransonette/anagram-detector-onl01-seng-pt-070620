@@ -8,8 +8,6 @@ class Anagram
   def match(words)
     new_array = [] 
     @anagram.split.sort("")
-   end
-   new_array
   end
   
 end
