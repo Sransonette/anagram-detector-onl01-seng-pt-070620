@@ -15,6 +15,6 @@ class Anagram
       match << matchedword
     end
   end
-  matched
+  match
 end
 end
