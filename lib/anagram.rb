@@ -6,11 +6,12 @@ class Anagram
   end
   
   def match(words)
-    #new_array = [] 
+    new_array = [] 
     words.each do |a, b|
     
     #words.sort {|a, b| a <=> b}
    end
+   new_array
   end
   
 end
