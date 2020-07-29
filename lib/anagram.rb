@@ -6,7 +6,8 @@ class Anagram
   end
   
   def match(string)
-    new_array = []
+    new_array = [] 
+    string.sort {|a, b| a <=> b}
     
   end
   
