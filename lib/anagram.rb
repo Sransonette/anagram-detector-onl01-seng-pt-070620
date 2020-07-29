@@ -10,7 +10,7 @@ class Anagram
     words.each do |word|
     
     #words.sort {|a, b| a <=> b}
-    new_array << words
+    new_array << words.sort
    end
    new_array
   end
