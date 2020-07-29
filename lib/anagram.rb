@@ -10,7 +10,7 @@ class Anagram
     string.collect.match do |a, b|
     
     #string.sort {|a, b| a <=> b}
-    
+   end
   end
   
 end
