@@ -17,3 +17,4 @@ class Anagram
   new_array
 end
 end
+
