@@ -9,7 +9,10 @@ class Anagram
     new_array = [] 
     words. each do |word|
     letters = word.split(//)
-    anagram_letters = 
+    anagram_letters = @anagram.split(//)
+    if letters.sort == anagram_letters.sort
+      matchedword = letter.join()
+      matched << matchedword
   end
-  
+  matched
 end
