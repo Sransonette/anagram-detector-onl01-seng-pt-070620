@@ -7,7 +7,7 @@ class Anagram
   
   def match(string)
     new_array = [] 
-    string.collect do |a, b|
+    string.each do |a, b|
     
     #string.sort {|a, b| a <=> b}
    end
