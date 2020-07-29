@@ -7,11 +7,11 @@ class Anagram
     @anagram = anagram
   end
   
-  def match(string)
+  def match(words)
     #new_array = [] 
-    string.each do |a, b|
+    words.each do |a, b|
     
-    #string.sort {|a, b| a <=> b}
+    #words.sort {|a, b| a <=> b}
    end
   end
   
