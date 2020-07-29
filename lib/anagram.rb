@@ -8,8 +8,7 @@ class Anagram
   def match(words)
     new_array = [] 
     words.each do |word|
-    
-    new_array << words[0].sort
+    new_array << words.to_s.sort.to_a
    end
    new_array
   end
