@@ -13,6 +13,7 @@ class Anagram
     if letters.sort == anagram_letters.sort
       matchedword = letter.join()
       matched << matchedword
+    end
   end
   matched
 end
